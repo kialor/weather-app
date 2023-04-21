@@ -1,0 +1,39 @@
+.header {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    
+
+}
+
+.container {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-image: url(IMG2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    height:auto;
+    margin-bottom: 50px;
+    background-position: center;
+}
+
+
+.gridItem1 {
+    background-color: azure;
+}
+
+.gridItem2 {
+    background-color: honeydew;
+}
+
+
+.label {
+    font-weight: bold;
+}
+
+span.data {
+    font-weight: normal;
+}

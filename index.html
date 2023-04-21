@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="header">Weather App</h1><br>
+    <div class="container d-flex justify-content-center w-50 shadow-lg rounded-4">
+        <div class="grid row-gap-3 w-40 ">
+            <div class="gridItem1 p-2 g-col-6 shadow rounded-1">
+                <h4>Enter Zipcode</h4>
+                <div class="input-group mb-3 w-70">
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    <button type="button" class="btn btn-outline-secondary">Submit</button>
+                </div>
+            </div>
+
+            <div class="gridItem2 p-2 mt-3 g-col-6 d-flex justify-content-center shadow rounded-1">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <p class="label">Today's date: <span class="data" id="date"></span></p>
+                        <p class="label">City: <span class="data" id="city"></span></p>
+                        <p class="label">Current temperature (&deg;F): <span class="data" id="temp"></span></p>
+                        <p class="label">Current conditions: <span class="data" id="conditions"></span></p>
+                        <p class="label">Temperature low and high (&deg;F): <span class="data" id="hilo"></span></p>
+                        <p></p>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+
+          </div>
+      </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+</body>
+</html>
